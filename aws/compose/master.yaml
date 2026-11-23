@@ -1,0 +1,22 @@
+﻿services:
+  master:
+    image: atbd-hadoop:1.0
+    container_name: atbd-master
+    hostname: master
+    network_mode: host
+    command: ["sleep", "infinity"]
+    extra_hosts:
+      - "master:172.31.32.167"
+      - "worker1:172.31.45.63"
+      - "worker2:172.31.46.106"
+      - "worker3:172.31.39.62"
+      - "client:172.31.45.181"
+    volumes:
+      - namenode:/data/hadoop/namenode
+      - ../config/core-site.xml:/opt/hadoop/etc/hadoop/core-site.xml:ro
+      - ../config/hdfs-site.xml:/opt/hadoop/etc/hadoop/hdfs-site.xml:ro
+      - ../config/yarn-site.xml:/opt/hadoop/etc/hadoop/yarn-site.xml:ro
+      - ../config/mapred-site.xml:/opt/hadoop/etc/hadoop/mapred-site.xml:ro
+
+volumes:
+  namenode:

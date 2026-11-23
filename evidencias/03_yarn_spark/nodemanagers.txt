@@ -1,0 +1,5 @@
+Total Nodes:3
+         Node-Id	     Node-State	Node-Http-Address	Number-of-Running-Containers
+   worker1:36813	        RUNNING	     worker1:8042	                           0
+   worker2:40455	        RUNNING	     worker2:8042	                           0
+   worker3:43471	        RUNNING	     worker3:8042	                           0

@@ -1,0 +1,41 @@
+FSCK started by root (auth:SIMPLE) from /172.31.32.167 for path /atbd/datasets at Sat Nov 21 16:52:39 GMT 2026
+
+
+Status: HEALTHY
+ Number of data-nodes:	3
+ Number of racks:		1
+ Total dirs:			1
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	2684261617 B
+ Total files:	10
+ Total blocks (validated):	27 (avg. block size 99417096 B)
+ Minimally replicated blocks:	27 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Blocks queued for replication:	0
+
+Erasure Coded Block Groups:
+ Total size:	0 B
+ Total files:	0
+ Total block groups (validated):	0
+ Minimally erasure-coded block groups:	0
+ Over-erasure-coded block groups:	0
+ Under-erasure-coded block groups:	0
+ Unsatisfactory placement block groups:	0
+ Average block group size:	0.0
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+ Blocks queued for replication:	0
+FSCK ended at Sat Nov 21 16:52:39 GMT 2026 in 10 milliseconds
+
+
+The filesystem under path '/atbd/datasets' is HEALTHY

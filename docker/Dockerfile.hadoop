@@ -1,0 +1,13 @@
+FROM atbd-base:1.0
+
+COPY docker/downloads/hadoop-3.4.3.tar.gz /tmp/hadoop.tar.gz
+
+RUN mkdir -p /opt/hadoop && \
+    tar -xzf /tmp/hadoop.tar.gz -C /opt/hadoop --strip-components=1 && \
+    rm /tmp/hadoop.tar.gz
+
+ENV HADOOP_HOME=/opt/hadoop
+ENV HADOOP_CONF_DIR=/opt/hadoop/etc/hadoop
+ENV PATH="${HADOOP_HOME}/bin:${HADOOP_HOME}/sbin:${PATH}"
+
+CMD ["sleep", "infinity"]

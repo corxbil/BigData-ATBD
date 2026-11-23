@@ -1,0 +1,6 @@
+nivel_deuda,total_clientes,clientes_impago,tasa_impago_pct
+1.000.000 o más,44770,4034,9.01
+100.000-499.999,69511,5849,8.41
+500.000-999.999,34335,3163,9.21
+Menos de 100.000,35147,2772,7.89
+Sin deuda registrada,123748,9007,7.28

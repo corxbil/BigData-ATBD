@@ -1,0 +1,21 @@
+NAME_EDUCATION_TYPE,rango_ingresos,total_clientes,clientes_impago,tasa_impago_pct
+Academic degree,100.000-199.999,63,0,0.0
+Academic degree,200.000-299.999,48,1,2.08
+Academic degree,300.000 o mas,41,2,4.88
+Academic degree,Menos de 100.000,12,0,0.0
+Higher education,100.000-199.999,33958,1931,5.69
+Higher education,200.000-299.999,21450,1129,5.26
+Higher education,300.000 o mas,11448,472,4.12
+Higher education,Menos de 100.000,8007,477,5.96
+Incomplete higher,100.000-199.999,5389,471,8.74
+Incomplete higher,200.000-299.999,2551,198,7.76
+Incomplete higher,300.000 o mas,926,72,7.78
+Incomplete higher,Menos de 100.000,1411,131,9.28
+Lower secondary,100.000-199.999,1846,232,12.57
+Lower secondary,200.000-299.999,438,46,10.5
+Lower secondary,300.000 o mas,89,5,5.62
+Lower secondary,Menos de 100.000,1443,134,9.29
+Secondary / secondary special,100.000-199.999,114642,10692,9.33
+Secondary / secondary special,200.000-299.999,40689,3547,8.72
+Secondary / secondary special,300.000 o mas,10235,802,7.84
+Secondary / secondary special,Menos de 100.000,52825,4483,8.49

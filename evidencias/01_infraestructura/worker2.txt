@@ -1,0 +1,7 @@
+﻿=== CONTENEDOR ===
+CONTAINER ID   IMAGE             COMMAND            CREATED             STATUS             PORTS     NAMES
+96b8088f52b4   atbd-hadoop:1.0   "sleep infinity"   About an hour ago   Up About an hour             atbd-worker2
+=== PROCESOS JAVA ===
+194 NodeManager
+69 DataNode
+2781 Jps
